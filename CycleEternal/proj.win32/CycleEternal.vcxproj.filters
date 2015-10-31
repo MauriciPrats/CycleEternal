@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\Util.cpp" />
+    <ClCompile Include="src\Util\TextSerialization\TextParser.cpp" />
+    <ClCompile Include="src\UI\Buttons\ButtonManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Labels\LabelManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\CustomUIElementConfiguration.cpp" />
+    <ClCompile Include="src\Scenes\MainScene.cpp" />
+    <ClCompile Include="src\Scenes\LevelSelectScene.cpp" />
+    <ClCompile Include="src\Scenes\BaseScene.cpp" />
+    <ClCompile Include="src\AppDelegate.cpp" />
+    <ClCompile Include="src\Scenes\GameScene.cpp" />
+    <ClCompile Include="src\Gameplay\Paths\Path.cpp" />
+    <ClCompile Include="src\Gameplay\Paths\PathSegment.cpp" />
+    <ClCompile Include="src\Gameplay\Paths\PathManager.cpp" />
+    <ClCompile Include="src\UI\Buttons\CustomButtonConfiguration.cpp" />
+    <ClCompile Include="src\Gameplay\Paths\PathsGroup.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Util.h" />
+    <ClInclude Include="src\Util\TextSerialization\TextObject.h" />
+    <ClInclude Include="src\Util\TextSerialization\TextParser.h" />
+    <ClInclude Include="src\UI\Buttons\ButtonManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\Labels\LabelManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\CustomUIElementConfiguration.h" />
+    <ClInclude Include="src\UI\Buttons\CustomButtonConfiguration.h" />
+    <ClInclude Include="src\Scenes\MainScene.h" />
+    <ClInclude Include="src\Scenes\LevelSelectScene.h" />
+    <ClInclude Include="src\Scenes\BaseScene.h" />
+    <ClInclude Include="src\AppDelegate.h" />
+    <ClInclude Include="src\Scenes\GameScene.h" />
+    <ClInclude Include="src\Gameplay\Paths\Path.h" />
+    <ClInclude Include="src\Gameplay\Paths\PathSegment.h" />
+    <ClInclude Include="src\Gameplay\Paths\PathManager.h" />
+    <ClInclude Include="src\Util\Constants.h" />
+    <ClInclude Include="src\Gameplay\Paths\PathsGroup.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cfg\game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\game.aps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\UIButtonsConfig.txt" />
+    <Text Include="res\UILabelsConfig.txt" />
+  </ItemGroup>
+</Project>

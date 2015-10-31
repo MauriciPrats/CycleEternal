@@ -1,0 +1,13 @@
+text_id : id_title_main_menu,
+text : Cycle Eternal,
+text_size : 40,
+x_position : 0,
+y_position : 100,
+anchor : 0
+|
+text_id : id_title_level_select,
+text : Level Select,
+text_size : 40,
+x_position : 0,
+y_position : 100,
+anchor : 0

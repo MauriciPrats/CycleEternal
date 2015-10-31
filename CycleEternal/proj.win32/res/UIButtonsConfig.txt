@@ -1,0 +1,27 @@
+text_id : start_game_main_menu,
+text : Start,
+text_size : 20,
+x_position : 0,
+y_position : 30,
+anchor : 0
+|
+text_id : quit_game_main_menu,
+text : Quit,
+text_size : 20,
+x_position : 0,
+y_position : -10,
+anchor : 0
+|
+text_id : level_1_button,
+text : Level 1,
+text_size : 20,
+x_position : 0,
+y_position : 30,
+anchor : 0
+|
+text_id : back_button,
+text : Back,
+text_size : 20,
+x_position : 0,
+y_position : -10,
+anchor : 0
